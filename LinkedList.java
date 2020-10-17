@@ -86,29 +86,4 @@ public class LinkedList<E> {
 
         return prev;
     }
-
-    public static void main(String[] args) {
-        LinkedList<Integer> list = new LinkedList<Integer>();
-        list.add(1);
-        list.add(2);
-        list.add(3);
-        list.add(4);
-
-        try {
-            for (int i = 0; i < list.size; i++) {
-                Integer a = list.get(i);
-                System.out.println("Element " + a);
-            }
-            System.out.println("BREAK");
-            list.head = list.reverse(list.head);
-            for (int i = 0; i < list.size; i++) {
-                Integer a = list.get(i);
-                System.out.println("Element " + a);
-            }
-        }catch(Exception e){
-            e.printStackTrace();
-        }
-
-    }
-
 }
