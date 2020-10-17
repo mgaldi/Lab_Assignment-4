@@ -1,6 +1,8 @@
 # Lab_Assignment-4
 Programmer: Marco Galdi
+
 Class: CS245
+
 Date: 10/16/2020
 
 ## Description
